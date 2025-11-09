@@ -38,7 +38,7 @@ export default function Portfolio() {
     >
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold glow-text-cyan">Portfolio</h1>
+          <h1 className="text-3xl font-bold glow-text-primary">Portfolio</h1>
           <p className="text-muted-foreground mt-1">
             Track your crypto holdings and performance
           </p>

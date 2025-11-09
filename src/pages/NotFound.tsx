@@ -19,7 +19,7 @@ const NotFound = () => {
         className="text-center space-y-6"
       >
         <div className="space-y-2">
-          <h1 className="text-8xl font-bold glow-text-cyan">404</h1>
+          <h1 className="text-8xl font-bold glow-text-primary">404</h1>
           <p className="text-2xl font-semibold text-muted-foreground">Page not found</p>
           <p className="text-muted-foreground">
             The page you're looking for doesn't exist or has been moved.
@@ -29,7 +29,7 @@ const NotFound = () => {
         <Link to="/">
           <Button className="gap-2">
             <Home className="h-4 w-4" />
-            Back to Dashboard
+            Back to Home
           </Button>
         </Link>
       </motion.div>

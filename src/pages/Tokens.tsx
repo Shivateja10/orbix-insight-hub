@@ -66,7 +66,7 @@ export default function Tokens() {
     >
       <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
         <div>
-          <h1 className="text-3xl font-bold glow-text-cyan">Token Explorer</h1>
+          <h1 className="text-3xl font-bold glow-text-primary">Token Explorer</h1>
           <p className="text-muted-foreground mt-1">
             Browse and analyze over 100 cryptocurrencies
           </p>

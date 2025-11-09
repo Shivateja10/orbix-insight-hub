@@ -12,7 +12,8 @@ export function Navbar() {
   const isActive = (path: string) => location.pathname === path;
 
   const navLinks = [
-    { path: "/", label: "Dashboard" },
+    { path: "/", label: "Home" },
+    { path: "/dashboard", label: "Dashboard" },
     { path: "/tokens", label: "Tokens" },
     { path: "/portfolio", label: "Portfolio" },
     { path: "/profile", label: "Profile" },
@@ -28,7 +29,7 @@ export function Navbar() {
               <div className="h-8 w-8 rounded-lg gradient-bg animate-glow" />
               <div className="absolute inset-0 h-8 w-8 rounded-lg border-2 border-primary/50" />
             </div>
-            <span className="text-xl font-bold glow-text-cyan">Orbix</span>
+            <span className="text-xl font-bold glow-text-primary">Orbix</span>
             <span className="text-xl font-light text-muted-foreground">Intellegence</span>
           </Link>
 

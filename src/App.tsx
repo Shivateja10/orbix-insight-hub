@@ -8,6 +8,7 @@ import { RainbowKitProvider, darkTheme, lightTheme } from "@rainbow-me/rainbowki
 import { ThemeProvider, useTheme } from "@/contexts/ThemeContext";
 import { wagmiConfig } from "@/lib/wagmi";
 import { Navbar } from "@/components/Navbar";
+import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Tokens from "./pages/Tokens";
 import Portfolio from "./pages/Portfolio";
@@ -34,7 +35,8 @@ function AppContent() {
               <div className="min-h-screen w-full bg-background text-foreground">
                 <Navbar />
                 <Routes>
-                  <Route path="/" element={<Dashboard />} />
+                  <Route path="/" element={<Home />} />
+                  <Route path="/dashboard" element={<Dashboard />} />
                   <Route path="/tokens" element={<Tokens />} />
                   <Route path="/portfolio" element={<Portfolio />} />
                   <Route path="/profile" element={<Profile />} />
